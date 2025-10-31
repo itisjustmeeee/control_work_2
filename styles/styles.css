@@ -1,0 +1,35 @@
+.custom-header {
+    position: relative;
+    background: url('../images/sun.gif') center/cover no-repeat;
+    min-height: 150px;  /* ← фиксированная высота */
+    color: white;  /* ← белый текст */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.custom-header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.06);
+    z-index: 1;
+}
+
+.header-content{
+    position: relative;
+    z-index: 2;
+    padding: 2rem, 1rem;
+}
+
+.bg-custom-backgroud{
+    background: linear-gradient(135deg, rgb(76, 0, 255), rgb(187, 0, 255));
+}
+
+@media (max-width: 760px) {
+    .costom-header{
+        min-height: 160px;
+    }
+
+    .header-content {
+        font-size: 1.5rem;
+    }
+}
