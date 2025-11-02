@@ -24,8 +24,8 @@
     background: linear-gradient(135deg, rgb(136, 91, 240), rgb(202, 106, 237));
 }
 
-.text-custom {
-    color:rgb(234, 145, 21)
+.text-github {
+    color:rgb(85, 21, 234)
 }
 
 @media (max-width: 760px) {
@@ -55,5 +55,21 @@
 }
 
 .bg-c {
-    background: linear-gradient(136deg, #510dfc, #9c75ff);
+    background: linear-gradient(100deg, #510dfc, #a988fd);
+}
+
+.bg-html {
+    background: linear-gradient(77deg, #fc650d, #f7ac57);
+}
+
+.bg-js {
+    background: linear-gradient(136deg, #fcd40d, #fcf00d);
+}
+
+.bg-py {
+    background: linear-gradient(45deg, #0d5dfc, #fcf00d);
+}
+
+.bg-sql {
+    background: linear-gradient(136deg, rgb(28, 228, 28), rgb(0, 110, 255));
 }
